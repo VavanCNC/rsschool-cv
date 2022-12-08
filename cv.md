@@ -30,8 +30,8 @@ function DNAStrand(dna){
 * __Belarusian State University of Informatics and Radioelectronics__
     * *Faculty of Information Technologies and Control*
 * __Streamline__ 3 levels up to Upper-Intermediate
-* __[Udemy HTML & CSS]__(https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) *(in process...)*
-* __[Udemy JavaScript]__(https://www.udemy.com/course/the-complete-javascript-course/) *(in process...)*
+* __[Udemy HTML & CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)__ *(in process...)*
+* __[Udemy JavaScript](https://www.udemy.com/course/the-complete-javascript-course/)__ *(in process...)*
 ## LANGUAGES 
 * Russian
 * Belarussian
