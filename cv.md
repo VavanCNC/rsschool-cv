@@ -27,11 +27,11 @@ function DNAStrand(dna){
 3. CF Technology and Engineering
 4. Fanuc LLC
 ## EDUCATION
-* __BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS__
+* __Belarusian State University of Informatics and Radioelectronics__
     * *Faculty of Information Technologies and Control*
-* *Streamline 3 levels up to Upper-Intermediate*
-* *[Udemy HTML & CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) *(in process...)
-* *[Udemy JavaScript](https://www.udemy.com/course/the-complete-javascript-course/) *(in process...)*
+* __Streamline__ 3 levels up to Upper-Intermediate
+* __[Udemy HTML & CSS]__(https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) *(in process...)*
+* __[Udemy JavaScript]__(https://www.udemy.com/course/the-complete-javascript-course/) *(in process...)*
 ## LANGUAGES 
 * Russian
 * Belarussian
