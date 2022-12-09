@@ -1,1 +1,1 @@
-https://vavanCNC.github.io/rsschool-cv/
+https://VavanCNC.github.io/rsschool-cv/
