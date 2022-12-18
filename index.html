@@ -1,20 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CV#2. HTML, CSS &amp; Git Basics</title>
-  <meta name="description" content="CV#2. HTML, CSS & Git Basics">
-  <meta name="author" content="Uladzimir Hlushtsou">
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <img
-            src="img/Uladzimir_Foto.jpg"
-            alt="Headshot of Uladzimir Hlushtsou"
-            height="100"
-            width="100"
-          >
-    <p class="author">Posted by <strong>Uladzimir</strong> on friday, December 09, 2022</p>
-  <script src="js/scripts.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>CV</title>
+    <meta name="description" content="CV#3" />
+    <meta name="author" content="Uladzimir Hlushtsou" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link rel="icon" href="assets/svg/cv.ico" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container container-header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contact-me" class="nav-link">Contact me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skils" class="nav-link">Skils</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-example" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work-experience" class="nav-link">Work experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container container-main">
+        <div class="left">
+          <figure class="main-foto">
+            <img
+              src="assets/img/my foto.JPG"
+              alt="Uladzimir Hlushtsou near milling machine"/>
+          </figure>
+          <section class="section contact-me" id="contact-me">
+            <h2 class="section-title">Contact me</h2>
+            <ul class="contact-list">
+              <li class="contact-item">Phone: +375293243310</li>
+              <li class="contact-item">Adress: 220070, Minsk, BY</li>
+              <li class="contact-item">
+                E-mail:
+                <a href="mailto:hlushtsou@gmail.com" title="e-mail">hlushtsou@gmail.com
+                </li></a>
+              <li class="contact-item">Github: <a href="https://github.com/VavanCNC" title="github">VavanCNC</a>></li>
+            </ul>
+          </section>
+        </div>
+        <div class="right">
+          <section class="section title">
+          <h1 class="name-title">Uladzimir Hlushtsou</h1>
+          <p>CNC service engineer</p>
+        </section>
+          <section class="section about-me" id="about-me">
+            <h2 class="section-title">About me</h2>
+            <p>I have worked in the field of repair and maintenance of metalworking machines, industrial robots and CNC systems for many years, but it's time to try myself in a new field. <br/>
+              It's never too late to learn! I am passionate about my work. I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work.</p>
+          </section>
+          <section class="section skils" id="skils">
+            <h2 class="section-title">Skils</h2>
+            <ul class="skils-list">
+              <li>HTML, CSS, JavaScript (as a beginner)</li>
+              <li>G-codes, Fanuc Ladder III</li>
+            </ul>
+          </section>
+          <section class="section code-example" id="code-example">
+            <h2 class="section-title">Code example</h2>
+            <code class="code">
+            function DNAStrand(dna){
+              return dna
+              .split('')
+              .map(i =&gt;
+                i === 'A' ? 'T' : i === 'T' ? 'A' : i === 'C' ? 'G' : i === 'G' ? 'C' : i
+              )
+              .join('');
+            </code>
+          </section>
+          <section class="section work-experience" id="work-experience">
+            <h2 class="section-title">Work experience</h2>
+            <ul class="experience-list">
+              <li class="experience-item">Minsk Tractor Plant</li>
+              <li class="experience-item">Rominex GmbH</li>
+              <li class="experience-item">CF Technology and Engineering</li>
+              <li class="experience-item">Fanuc LLC</li>
+            </ul>
+          </section>
+          <section class="section education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="education-list">
+              <li class="education-item">Belarusian State University of Informatics and Radioelectronics (BSUIR) <br/>Faculty of Information Technologies and Control</li>
+              <li class="education-item">Streamline <br/>3 levels up to Upper-Intermediate</li>
+              <li class="education-item"><a href='https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/'>Udemy HTML &amp; CSS</a></li>
+              <li class="education-item"><a href="https://www.udemy.com/course/the-complete-javascript-course/">Udemy JavaScript</a></li>
+            </ul>
+          </section>
+          <section class="section languages" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="languages-list">
+              <li class="languages-item">Russian</li>
+              <li class="languages-item">Belarussian</li>
+              <li class="languages-item">English B1 (a lot of practice at the last place of work, my boss was a foreigner, he constantly demanded reports in English)</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/scripts.js"></script>
+    <footer>
+      <div class="container container-footer">
+        <div>&copy; 2022-2023</div>
+      </div>
+    </footer>
+  </body>
 </html>
